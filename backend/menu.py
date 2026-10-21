@@ -1,20 +1,20 @@
-﻿cafeteria_menus = {
+menus = {
     "Main Cafeteria": {
         "Sadza and Beef": 5.00,
-        "Rice and Chicken": 6.00,
-        "Beef Burger": 4.50,
-        "Chips": 2.50,
-        "Sandwich": 3.00
+        "Rice and Chicken": 7.50,
+        "Burger": 6.00,
+        "Chips": 3.00,
+        "Vegetable Rice": 4.50
     },
-    "Student Cafeteria": {
-        "Sadza and Vegetables": 3.00,
-        "Rice and Beans": 3.50,
-        "Chicken Pie": 2.00,
-        "Hot Dog": 2.50,
-        "Tea": 1.00
+    "Student Cafe": {
+        "Chicken Sandwich": 4.00,
+        "Pizza Slice": 3.50,
+        "Hot Dog": 3.00,
+        "Fruit Salad": 2.50,
+        "Tea": 1.50
     }
 }
 
 
 def get_menu(cafeteria_name):
-    return cafeteria_menus.get(cafeteria_name, "Cafeteria not found")
+    return menus.get(cafeteria_name, {})
