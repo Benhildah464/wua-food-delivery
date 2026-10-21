@@ -1,4 +1,4 @@
-﻿users = {}
+users = {}
 
 def register_user(name, email, student_id, password):
     if email in users:
@@ -15,7 +15,9 @@ def register_user(name, email, student_id, password):
 
 
 def login_user(email, password):
-    if email in users and users[email]["password"] == password:
+    user = users.get(email)
+
+    if user and user["password"] == password:
         return "Login successful"
 
     return "Invalid email or password"
