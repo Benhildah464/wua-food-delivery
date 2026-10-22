@@ -1,18 +1,18 @@
-﻿<<<<<<< HEAD
-users = {}
-=======
-﻿import re
+﻿
+import re
 import hashlib
 
 users = {}
 
 
 def hash_password(password):
+    """Hash a password before storing it."""
     return hashlib.sha256(password.encode("utf-8")).hexdigest()
 
->>>>>>> f8728ce (Address review feedback: add password hashing and email validation)
 
 def register_user(name, email, student_id, password):
+    """Register a user after validating the email and hashing the password."""
+
     email_pattern = r"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
 
     if not re.match(email_pattern, email):
@@ -32,13 +32,10 @@ def register_user(name, email, student_id, password):
 
 
 def login_user(email, password):
- HEAD
-    user = users.get(email)
-
-    if user and user["password"] == password:
+    """Verify the user's email and password and return the login result."""
 
     if email in users and users[email]["password"] == hash_password(password):
-f8728ce (Address review feedback: add password hashing and email validation)
         return "Login successful"
 
     return "Invalid email or password"
+
