@@ -42,7 +42,7 @@
 
 1\. User Authentication: https://github.com/Benhildah464/wua-food-delivery/pull/1
 
-2\. Menu Browsing: \[https://github.com/Benhildah464/wua-food-delivery/pull/2]
+2\. Menu Browsing: https://github.com/Benhildah464/wua-food-delivery/pull/2
 
 3\. Order Tracking: https://github.com/Benhildah464/wua-food-delivery/pull/3
 
@@ -56,7 +56,7 @@
 
 
 
-Release link: \[https://github.com/Benhildah464/wua-food-delivery/tree/v1.0-submission]
+Release link: \[Release link: https://github.com/Benhildah464/wua-food-delivery/releases/tag/v1.0-submission]
 
 
 
