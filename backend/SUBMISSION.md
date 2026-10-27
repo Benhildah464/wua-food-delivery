@@ -82,5 +82,3 @@ One challenge was correcting code errors and managing changes from different gro
 
 In future projects, we will continue using Git and GitHub to organise development, track changes, review code, and work collaboratively.
 
-
-
