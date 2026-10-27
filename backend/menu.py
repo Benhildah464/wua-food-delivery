@@ -17,4 +17,26 @@ menus = {
 
 
 def get_menu(cafeteria_name):
+    """Return the menu for a specific cafeteria."""
     return menus.get(cafeteria_name, {})
+
+
+def search_menu(search_term):
+    """Search for food items across all cafeterias."""
+
+    if not isinstance(search_term, str) or not search_term.strip():
+        return []
+
+    results = []
+    search_term = search_term.strip().lower()
+
+    for cafeteria_name, food_items in menus.items():
+        for food_name, price in food_items.items():
+            if search_term in food_name.lower():
+                results.append({
+                    "cafeteria": cafeteria_name,
+                    "item": food_name,
+                    "price": price
+                })
+
+    return results
