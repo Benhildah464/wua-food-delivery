@@ -56,7 +56,7 @@
 
 
 
-Release link: \[Release link: https://github.com/Benhildah464/wua-food-delivery/releases/tag/v1.0-submission]
+Release link: https://github.com/Benhildah464/wua-food-delivery/releases/tag/v1.0-submission
 
 
 
@@ -64,7 +64,7 @@ Release link: \[Release link: https://github.com/Benhildah464/wua-food-delivery/
 
 
 
-Insert a screenshot of the GitHub contribution graph here.
+The GitHub contribution graph screenshot is included as supporting evidence of our development activity. The screenshot is saved as contribution-graph.png.
 
 
 
